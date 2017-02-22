@@ -1,0 +1,55 @@
+#all {
+    width: 1000px;
+		height: 1500px;
+    background: grey;
+    margin: 0 auto;
+    padding: 10px;
+		text-align: center;
+		border-style: solid;
+		border-radius: 30px
+}
+
+#title {
+		width: 50%;
+		margin: auto;
+}
+
+#names {
+	width: 50%;
+	height: 500px;
+  float: left;
+	padding-top: 1px;
+}  
+
+#mmrs {
+		width: 50%;
+    margin-left: 50%;
+		height: 500px;
+		padding-top: 1px; 
+}
+
+.nomargin {
+	margin: 0px;
+}
+
+#result1 {
+	width: 50%;
+	height: 250px;
+  float: left;
+}
+#result2 {
+	width: 50%;
+  margin-left: 50%;
+	height: 250px;
+}
+#result1 h2 {
+	margin-top:0px;
+}
+#result2 h2 {
+	margin-top:0px;
+}
+
+
+
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="styles.css"></head>
+ <script src="scripts.js"></script> 
+<body>
+<div id="all">
+	<a name="toplink"></a>
+	<div id="title"><h1>MMR Team Calculator</h1></div>
+	<div id="description"><p>Please enter your player's names in the left input boxes, followed by their MMR in the right (make sure they line up). At this time duplicate MMRs are not supported; if you have two players with the same MMR give one of them +1 or -1.</p></div>
+	<div id="names">
+		<form>
+			<h2>Names</h2>
+			<input type="text" name="name1" class="name" autocomplete="off">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" autocomplete="off">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" autocomplete="off">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" autocomplete="off">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" autocomplete="off">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" autocomplete="off">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" autocomplete="off">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" autocomplete="off">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" autocomplete="off">
+			</br>
+			</br>
+			<input type="text" name="name1" class="name" autocomplete="off">
+		</form>
+	</div>
+
+	<div id="mmrs">
+		<form>
+			<h2>MMRS</h2>
+			<input type="text" name="mmr1" class="mmr" autocomplete="off">
+			<br>
+  		<br>
+  		<input type="text" name="mmr2" class="mmr" autocomplete="off">
+			<br>
+			<br>
+  		<input type="text" name="mmr3" class="mmr" autocomplete="off">
+			<br>
+  		<br>
+  		<input type="text" name="mmr4" class="mmr" autocomplete="off">
+			<br>
+			<br>
+  		<input type="text" name="mmr5" class="mmr" autocomplete="off">
+			<br>
+  		<br>
+  		<input type="text" name="mmr6" class="mmr" autocomplete="off">
+			<br>
+			<br>
+  		<input type="text" name="mmr7" class="mmr" autocomplete="off">
+			<br>
+			<br>
+  		<input type="text" name="mmr8" class="mmr" autocomplete="off">
+			<br>
+			<br>
+  		<input type="text" name="mmr9" class="mmr" autocomplete="off">
+			<br>
+			<br>
+  		<input type="text" name="mmr10" class="mmr" autocomplete="off">
+			<br>
+		</form>
+	</div>
+	<a name="resultations"></a> 
+	<div class="nomargin">
+		<a href="#resultations" id="pagelinks"><button type="button" onClick="makeray()" id="myButton">Calculate</button></a>
+	</div>
+
+	<div id="result1">
+		<h2 id="team1title"></h2>
+		<p id ="a0"></p>
+		<p id ="a1"></p>
+		<p id ="a2"></p>
+		<p id ="a3"></p>
+		<p id ="a4"></p>
+	</div>
+	<div id="result2">
+		<h2 id="team2title"></h2>
+		<p id ="b0"></p>
+		<p id ="b1"></p>
+		<p id ="b2"></p>
+		<p id ="b3"></p>
+		<p id ="b4"></p>
+	</div>
+
+	<div id="nomargin">
+		<h2 id="difference"></h2>
+	</div>
+</div>
+</body>
+</html>
