@@ -66,6 +66,5 @@ function makeray (){
 		document.getElementById("team1title").innerHTML = ["Team 1 Players"];
 		document.getElementById("team2title").innerHTML = ["Team 2 Players"];
 		document.getElementById("difference").innerHTML = ["Total MMR Difference: " + difference];
-		document.getElementById('myButton').innerHTML = "Reset";
 }
 }
