@@ -1,8 +1,4 @@
 function makeray (){
-	if (document.getElementById("myButton").innerHTML == "Reset"){
-			location.reload();
-			document.getElementById('pagelinks').href = "#toplink";
-			}
 	var set1 = [];
 	var set2 = [];
 	var sum1 = 0;
